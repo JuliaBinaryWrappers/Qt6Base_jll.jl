@@ -31,67 +31,67 @@ function __init__()
     JLLWrappers.@generate_init_header(Xorg_libXext_jll, Xorg_libxcb_jll, Xorg_xcb_util_wm_jll, Xorg_xcb_util_image_jll, Xorg_xcb_util_keysyms_jll, Xorg_xcb_util_renderutil_jll, Xorg_libXrender_jll, xkbcommon_jll, Libglvnd_jll, Fontconfig_jll, Glib_jll, Zlib_jll, CompilerSupportLibraries_jll, OpenSSL_jll)
     JLLWrappers.@init_library_product(
         libqt6concurrent,
-        "lib/libQt6Concurrent.so.6.0.3",
+        "lib/libQt6Concurrent.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6core,
-        "lib/libQt6Core.so.6.0.3",
+        "lib/libQt6Core.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6dbus,
-        "lib/libQt6DBus.so.6.0.3",
+        "lib/libQt6DBus.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6gui,
-        "lib/libQt6Gui.so.6.0.3",
+        "lib/libQt6Gui.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6network,
-        "lib/libQt6Network.so.6.0.3",
+        "lib/libQt6Network.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6opengl,
-        "lib/libQt6OpenGL.so.6.0.3",
+        "lib/libQt6OpenGL.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6printsupport,
-        "lib/libQt6PrintSupport.so.6.0.3",
+        "lib/libQt6PrintSupport.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6sql,
-        "lib/libQt6Sql.so.6.0.3",
+        "lib/libQt6Sql.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6test,
-        "lib/libQt6Test.so.6.0.3",
+        "lib/libQt6Test.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6widgets,
-        "lib/libQt6Widgets.so.6.0.3",
+        "lib/libQt6Widgets.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libqt6xml,
-        "lib/libQt6Xml.so.6.0.3",
+        "lib/libQt6Xml.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
