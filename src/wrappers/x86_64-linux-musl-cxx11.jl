@@ -15,6 +15,7 @@ using Glib_jll
 using Zlib_jll
 using CompilerSupportLibraries_jll
 using OpenSSL_jll
+using Vulkan_Loader_jll
 JLLWrappers.@generate_wrapper_header("Qt6Base")
 JLLWrappers.@declare_library_product(libqt6concurrent, "libQt6Concurrent.so.6")
 JLLWrappers.@declare_library_product(libqt6core, "libQt6Core.so.6")
@@ -28,7 +29,7 @@ JLLWrappers.@declare_library_product(libqt6test, "libQt6Test.so.6")
 JLLWrappers.@declare_library_product(libqt6widgets, "libQt6Widgets.so.6")
 JLLWrappers.@declare_library_product(libqt6xml, "libQt6Xml.so.6")
 function __init__()
-    JLLWrappers.@generate_init_header(Xorg_libXext_jll, Xorg_libxcb_jll, Xorg_xcb_util_wm_jll, Xorg_xcb_util_image_jll, Xorg_xcb_util_keysyms_jll, Xorg_xcb_util_renderutil_jll, Xorg_libXrender_jll, xkbcommon_jll, Libglvnd_jll, Fontconfig_jll, Glib_jll, Zlib_jll, CompilerSupportLibraries_jll, OpenSSL_jll)
+    JLLWrappers.@generate_init_header(Xorg_libXext_jll, Xorg_libxcb_jll, Xorg_xcb_util_wm_jll, Xorg_xcb_util_image_jll, Xorg_xcb_util_keysyms_jll, Xorg_xcb_util_renderutil_jll, Xorg_libXrender_jll, xkbcommon_jll, Libglvnd_jll, Fontconfig_jll, Glib_jll, Zlib_jll, CompilerSupportLibraries_jll, OpenSSL_jll, Vulkan_Loader_jll)
     JLLWrappers.@init_library_product(
         libqt6concurrent,
         "lib/libQt6Concurrent.so",
