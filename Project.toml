@@ -1,6 +1,6 @@
 name = "Qt6Base_jll"
 uuid = "c0090381-4147-56d7-9ebc-da0b1113ec56"
-version = "6.5.2+2"
+version = "6.5.3+0"
 
 [deps]
 Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
@@ -28,5 +28,7 @@ Xorg_xcb_util_cursor_jll = "e920d4aa-a673-5f3a-b3d7-f755a4d47c43"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
-OpenSSL_jll = "1.1.10"
+OpenSSL_jll = "3.0.8"
+Libdl = "1"
 Glib_jll = "2.59.0"
+Artifacts = "1"
