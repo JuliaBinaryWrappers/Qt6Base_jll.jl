@@ -1,10 +1,10 @@
 [[Qt6Base]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3c897f16600e7421ecb9c0ec68680dcad4ffaa8c"
+git-tree-sha1 = "c94d89caa95b3d05e8144aeafd4a114e2e31be1d"
 libc = "musl"
 os = "linux"
 
     [[Qt6Base.download]]
-    sha256 = "60b80b77b82db9bfba744086f5873106bac8150ad950c2ec531a91b07b79b547"
-    url = "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.8.1+0/Qt6Base.v6.8.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "be808fce49e21be658df9c4fccce4893377ba90b6caf82152a8517e940514b91"
+    url = "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.8.2+0/Qt6Base.v6.8.2.x86_64-linux-musl-cxx11.tar.gz"
